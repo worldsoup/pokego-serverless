@@ -1,7 +1,7 @@
 service: pokego-serverless
 provider: aws
 runtime: nodejs4.3
-defaults:
+defaults: 
    stage: dev
    region: us-east-1
    memory: 512
@@ -24,3 +24,4 @@ functions:
           - http:
               path: nearbyraw
               method: get
+fflskadflas
